@@ -1,0 +1,16 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            //  node 14 gives errors
+            "node": "10"
+          }
+        }
+      ],
+      "@babel/preset-react"
+    ],
+    // enables use of async and await in the javascript
+    "plugins": ["@babel/plugin-proposal-class-properties"]
+  }
