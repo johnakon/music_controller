@@ -19,7 +19,6 @@ def generate_unique_code():
 
 # Create your models here.
 
-# room
 class Room(models.Model):
     code = models.CharField(max_length=8, default="", unique=True)
     host = models.CharField(max_length=50, unique=True)
@@ -28,4 +27,4 @@ class Room(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
 
-    def 
+# Get all roooms
