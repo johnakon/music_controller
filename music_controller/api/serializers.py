@@ -2,6 +2,7 @@ from rest_framework import serializers
 
 from .models import Room
 
+
 # Room serializer : Obtain json format information on Rooms
 class RoomSerializer(serializers.ModelSerializer):
     class Meta:
